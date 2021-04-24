@@ -158,8 +158,12 @@ header .header__cases {
        margin: 0 auto;
     }
 
+    .index__links {
+        overflow: hidden;
+    }
+
     .index__links div {
-        margin: 10px 10px 0;
+        margin: 20px 10px 0;
         height: 230px;
         background-color: #f2f2f2;
         float: left;
@@ -171,6 +175,10 @@ header .header__cases {
 
     .index__boxlink__rectangle {
         width: calc(50% - 20px) !important;
+    }
+
+    .index__links div h3 { 
+        line-height: 230px;
     }
 }
 
@@ -205,8 +213,9 @@ footer ul li a{
 
 }
 
-.footer__links__main {
+.footer__links__cases {
     display: none;
+    text-transform: uppercase;
 }
 
 .footer__sm {
@@ -217,4 +226,26 @@ footer ul li a{
 .footer__sm img {
     width: 100%;
     margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .footer__links__cases {
+        display: block;
+    }
+
+    footer ul {
+        padding-right: 30px;
+    }
+
+    footer ul li p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24px;
+        color: #fff;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+
+    
+
+    
 }
