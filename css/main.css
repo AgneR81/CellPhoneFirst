@@ -38,10 +38,47 @@ header nav ul li a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     color: #111;
+    text-transform: uppercase;
 }
 
 header .header__cases {
     display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    header .header__brand {
+        margin: 31px 0;
+        text-align: left;
+        line-height: 38px;
+        padding: 0px 20px 0px 40px;
+        border-right: 3px solid #111;
+        float: left;
+    }
+
+    header nav ul {
+        margin: 20px 0px 0px 20px;
+        float: left;
+        
+    }
+
+    header nav ul li a{
+        line-height: 60px;
+    }
+
+    header .header__cases {
+        display: block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        line-height: 38px;
+        border: 1px solid #111;
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;
+        padding: 0px 20px;
+
+    }  
 }
 
 /*index*/
@@ -104,4 +141,60 @@ header .header__cases {
     text-transform: uppercase;
 }
 
+@media only screen and (min-width: 1000px) {
+    .index__banner {
+        width: 100%;
+        height: 450px;
+    }
+
+    .index__banner h1 {
+       display: block;
+       width: 560px;
+       margin: 0 auto;
+    }
+}
+
 /*footer*/
+
+footer {
+    width: 100%;
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #111;
+    overflow: hidden;
+}
+
+footer ul {
+    width: fits-content;
+    float: left;
+    padding-left: 20px;
+
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+    
+}
+
+footer ul li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+
+}
+
+.footer__links__main {
+    display: none;
+}
+
+.footer__sm {
+    width: 50px;
+    float: right;
+}
+
+.footer__sm img {
+    width: 100%;
+    margin-bottom: 10px;
+}
