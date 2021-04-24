@@ -142,6 +142,11 @@ header .header__cases {
 }
 
 @media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
     .index__banner {
         width: 100%;
         height: 450px;
@@ -151,6 +156,21 @@ header .header__cases {
        display: block;
        width: 560px;
        margin: 0 auto;
+    }
+
+    .index__links div {
+        margin: 10px 10px 0;
+        height: 230px;
+        background-color: #f2f2f2;
+        float: left;
+    }
+
+    .index__boxlink__square {
+        width: calc(25% - 20px) !important;
+    }
+
+    .index__boxlink__rectangle {
+        width: calc(50% - 20px) !important;
     }
 }
 
